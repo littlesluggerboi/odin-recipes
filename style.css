@@ -1,24 +1,39 @@
+*{
+    /* outline: 2px solid red; */
+}
+
 body{
     font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
 }
 
-img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 350px;
-    height: 300px;
+ul {
+    list-style-type: none;
 }
 
-h2 {
+h1{
+    text-align: center;
     background-color: red;
 }
-.recipe {
-    text-align: center;
-    background-color: green;
-    color: white;
+
+.elements-container {
+    /* border:1px solid black; */
+    width: fit-content;
+    margin: 0 auto; 
+    padding: 10px;
 }
-a {
-    background-color: black;
-    color: white;
+/* .elements-container ul li .reciple button {
+    width: 100px;
+} */
+
+.recipe {
+    margin: 10px;
+}
+
+button {
+    font-size: 20px;
+    font-weight: bold;
+    background-color:lightgreen;
+    width: 400px;
+    height: 100px;
 }

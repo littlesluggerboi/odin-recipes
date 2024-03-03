@@ -1,24 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
+    <meta charset="UTF-8">
 <head>
     <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
 </head>
 <body>
     <h1>Odin Recipes</h1>
-    <ul>
-        <li>
-            <a href="./recipes/italian-corn.html">Italian Corn</a>
-        </li>
-        <li>
-            <a href="./recipes/garlic-mushroom.html">Garlic Mushroom</a>
-        </li>
-        <li>
-            <a href="./recipes/roasted-broccoli.html">Roasted Broccoli</a>
-        </li>
-    </ul>
+    <div class="elements-container">
+        <ul>
+            <li>
+                <div class="recipe">
+                    <button onclick="document.location='./recipes/italian-corn.html'">
+                        Italian Corn
+                    </button>
+                </div>
+            </li>
+            <li>
+                <div class="recipe">
+                    <button onclick="document.location='./recipes/garlic-mushroom.html'">
+                        Garlic Mushroom
+                    </button>
+                </div>
+            </li>
+            <li>
+                <div class="recipe">
+                    <button onclick="document.location='./recipes/roasted-broccoli.html'">
+                        Roasted Broccoli
+                    </button>
+                </div>
+            </li>
+        </ul>
+    </div>
+    
     
 </body>
 </html>
